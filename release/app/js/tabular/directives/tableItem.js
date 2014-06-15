@@ -1,0 +1,1 @@
+define([],function(){return function(){angular.module("app.tabular.directives.tableItem",[]).directive("tableItem",function(){return{restrict:"E",scope:{feature:"=",title:"=",log:"&",switchdash:"&",drawchart:"&"},replace:!0,templateUrl:"app/js/tabular/partial/tableItem.htm",link:function(){},controller:function(){}}})}(),{}});

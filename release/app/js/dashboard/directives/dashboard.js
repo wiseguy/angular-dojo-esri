@@ -1,0 +1,1 @@
+define([],function(){return function(){angular.module("app.dashboard.directives.ChartWidget",[]).directive("chartWidget",function(){return{restrict:"E",scope:{},replace:!0,templateUrl:"app/js/dashboard/partial/chartWidget.htm",controller:function(t){t.test="aaa"}}})}(),{}});

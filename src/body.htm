@@ -1,0 +1,33 @@
+    <div id="navContainer" >
+      <a href="#/dashboard">Dashboard</a>
+      <a href="#/map">Map</a>
+      <a href="#/tabular">Tabular</a>
+    </div>
+
+
+    <div id="project" ng-controller="DataCtrl">
+
+        <div id="stackContainer" ng-controller="ViewCtrl" >
+
+              <div id="map" ng-show="map" class="ng-hide" ng-controller="MapCtrl" >
+
+                  <map-container createthemap="createMap()"></map-container>
+              </div>
+        
+              <div id="dahboard" ng-controller="DashCtrl" ng-show="dashboard" class="ng-hide">
+                  <chart-widget></chart-widget>
+                  <div id="chartLegend">Math vs Reading 8th Grade  for {{stateName}}</div>
+              </div>
+        
+              <div id="tabular"  ng-show="tabular" class="ng-hide">
+                    <div ng-repeat="feature in data.features">
+                         <table-item feature="feature" title="'State Name'" log="logFeature(feature)" 
+                         switchdash="switchToDashboard()" drawchart="constructChart(feature)">
+                            <div>Table Item</div>
+                         </table-item>
+                    </div>
+              </div>
+            
+        </div>   
+    
+    </div>

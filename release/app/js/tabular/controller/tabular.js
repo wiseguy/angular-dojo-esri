@@ -1,0 +1,1 @@
+define([],function(){!function(){angular.module("data.ctrl",[]).controller("DataCtrl",function(n,t,a){a.then(function(t){n.data=t}),n.logFeature=function(n){t.$broadcast("handleShowChart",n)}})}()});

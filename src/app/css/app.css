@@ -1,0 +1,77 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.hide {
+	display:none;
+}
+
+#chartLegend{
+	height:30px;
+	width:200px;
+	margin:auto;
+}
+#canvas{
+	margin: auto;
+}
+#navContainer {
+height:30px;
+width: 100%;
+text-align: center;
+}
+
+#project #mapDiv{
+	width: 100% !important;
+	height: 100% !important;
+}
+
+#mapCP{
+	width: 700px !important;
+	height: 100%;
+}
+
+
+#project {
+position: absolute;
+top: 30px;
+left: 0;
+right: 0;
+bottom: 0;
+border-top: 1px solid #000;
+/*background-color: #DDD;*/
+}
+#stackContainer{
+	width: 100%;
+	height: 100%;
+}
+
+#map,#dahboard,#tabular {
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	width:100%;
+	height:100%;
+}
+
+.tableItem{
+	cursor: pointer;
+}
+
+.tableItem:hover{
+	color: red;
+}
+
+
+/*#map {
+	background-color: red;
+}
+#dahboard {
+	background-color: blue;
+}
+
+#tabular {
+	background-color: green;
+}*/
